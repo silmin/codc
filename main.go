@@ -35,11 +35,11 @@ func main() {
                 },
                 Action: func (context *cli.Context) error {
                     filename := context.String("file")
-                    if isExistFile(filename) {
-                        fmt.Println("filename:", filename)
-                    } else {
+                    if !isExistFile(filename) {
                         fmt.Println(filename, "not exist.")
+                        return nil
                     }
+                    fmt.Println("filename:", filename)
                     return nil
                 },
             },
