@@ -30,7 +30,7 @@ func main() {
                         Name: "file",
                         Aliases: []string{"f"},
                         Usage: "input json file",
-                        Value: "out.json",
+                        Value: "input.json",
                     },
                 },
                 Action: func (context *cli.Context) error {
