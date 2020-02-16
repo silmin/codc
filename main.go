@@ -8,6 +8,10 @@ import (
     "github.com/urfave/cli"
 )
 
+func isExistFile(filename string) bool {
+    _, err := os.Stat(filename)
+    return err == nil
+}
 
 func main() {
     app := &cli.App {
@@ -26,13 +30,16 @@ func main() {
                         Name: "file",
                         Aliases: []string{"f"},
                         Usage: "input json file",
-                        Value: "",
+                        Value: "out.json",
                     },
                 },
                 Action: func (context *cli.Context) error {
                     filename := context.String("file")
-                    if filename == "" { return nil }
-                    fmt.Println("filename:", filename)
+                    if isExistFile(filename) {
+                        fmt.Println("filename:", filename)
+                    } else {
+                        fmt.Println(filename, "not exist.")
+                    }
                     return nil
                 },
             },
