@@ -12,26 +12,27 @@ import (
 func main() {
     app := &cli.App {
 
-        Name: "test",
-        Usage: "test CLI tool",
+        Name: "ODC-combiner",
+        Usage: "combine json of opendatacam",
         Version: "0.0.1",
 
         Commands: []*cli.Command {
             {
-                Name: "hoge",
-                Usage: "say hoge",
+                Name: "areas",
+                Usage: "combine any areas",
 
                 Flags: []cli.Flag {
-                    &cli.BoolFlag {
-                        Name: "cat",
-                        Aliases: []string{"c"},
-                        Usage: "Echo with cat",
+                    &cli.StringFlag {
+                        Name: "file",
+                        Aliases: []string{"f"},
+                        Usage: "input json file",
+                        Value: "",
                     },
                 },
-
                 Action: func (context *cli.Context) error {
-                    fmt.Println("hoge")
-                    if context.Bool("cat") { fmt.Println("nyan !") }
+                    filename := context.String("file")
+                    if filename == "" { return nil }
+                    fmt.Println("filename:", filename)
                     return nil
                 },
             },
