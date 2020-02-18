@@ -1,7 +1,7 @@
 {
     "_id": "5e41160905670f003ab390bc",
-    "areas": {
-        "1c871c40-e5dd-4689-a795-39718be34f01": {
+    "areas": [
+        {
             "color": "purple",
             "computed": {
                 "a": -0.4179233313534197,
@@ -11,6 +11,7 @@
                     "xMin": 168.04774083546462
                 }
             },
+            "id": "1c871c40-e5dd-4689-a795-39718be34f01",
             "location": {
                 "point1": {
                     "x": 308,
@@ -27,7 +28,7 @@
             },
             "name": "pink"
         },
-        "549f849a-f585-43c7-a93a-b92cd1c7f3eb": {
+        {
             "color": "red",
             "computed": {
                 "a": 2.1341105689826008,
@@ -37,6 +38,7 @@
                     "xMin": 573.9812446717817
                 }
             },
+            "id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
             "location": {
                 "point1": {
                     "x": 1128,
@@ -53,7 +55,7 @@
             },
             "name": "red"
         },
-        "79fdd185-f875-424a-a418-85519bd3a9d7": {
+        {
             "color": "green",
             "computed": {
                 "a": -0.12226053496712504,
@@ -63,6 +65,7 @@
                     "xMin": 417.39130434782606
                 }
             },
+            "id": "79fdd185-f875-424a-a418-85519bd3a9d7",
             "location": {
                 "point1": {
                     "x": 765,
@@ -79,7 +82,7 @@
             },
             "name": "green"
         },
-        "c2d784fb-374c-4857-b2c2-daa7ebaa928c": {
+        {
             "color": "yellow",
             "computed": {
                 "a": -1.1779771408122819,
@@ -89,6 +92,7 @@
                     "xMin": 63.29070758738278
                 }
             },
+            "id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
             "location": {
                 "point1": {
                     "x": 116,
@@ -105,7 +109,7 @@
             },
             "name": "yellow"
         },
-        "de2432bf-73aa-4fc7-b24f-8168d5e43c9e": {
+        {
             "color": "turquoise",
             "computed": {
                 "a": 0.5930439330543933,
@@ -115,6 +119,7 @@
                     "xMin": 236.24893435635124
                 }
             },
+            "id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
             "location": {
                 "point1": {
                     "x": 568,
@@ -131,1284 +136,1472 @@
             },
             "name": "blue"
         }
-    },
+    ],
     "counterHistory": [
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 54,
             "id": 506,
             "name": "bus",
             "timestamp": "2020-02-10T08:36:28.497Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 93,
             "id": 534,
             "name": "car",
             "timestamp": "2020-02-10T08:36:31.050Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 112,
             "id": 501,
             "name": "car",
             "timestamp": "2020-02-10T08:36:32.275Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 142,
             "id": 539,
             "name": "car",
             "timestamp": "2020-02-10T08:36:34.235Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 149,
             "id": 537,
             "name": "car",
             "timestamp": "2020-02-10T08:36:34.682Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 167,
             "id": 548,
             "name": "car",
             "timestamp": "2020-02-10T08:36:35.844Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 170,
             "id": 534,
             "name": "car",
             "timestamp": "2020-02-10T08:36:36.056Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 181,
             "id": 550,
             "name": "car",
             "timestamp": "2020-02-10T08:36:36.782Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 217,
             "id": 539,
             "name": "car",
             "timestamp": "2020-02-10T08:36:39.141Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 218,
             "id": 554,
             "name": "car",
             "timestamp": "2020-02-10T08:36:39.194Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 276,
             "id": 576,
             "name": "car",
             "timestamp": "2020-02-10T08:36:42.968Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 281,
             "id": 581,
             "name": "car",
             "timestamp": "2020-02-10T08:36:43.301Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 292,
             "id": 588,
             "name": "car",
             "timestamp": "2020-02-10T08:36:44.002Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 343,
             "id": 596,
             "name": "car",
             "timestamp": "2020-02-10T08:36:47.336Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 366,
             "id": 612,
             "name": "car",
             "timestamp": "2020-02-10T08:36:48.840Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 368,
             "id": 588,
             "name": "car",
             "timestamp": "2020-02-10T08:36:48.961Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 370,
             "id": 606,
             "name": "car",
             "timestamp": "2020-02-10T08:36:49.102Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 376,
             "id": 601,
             "name": "car",
             "timestamp": "2020-02-10T08:36:49.484Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 437,
             "id": 624,
             "name": "car",
             "timestamp": "2020-02-10T08:36:53.486Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 444,
             "id": 601,
             "name": "car",
             "timestamp": "2020-02-10T08:36:53.952Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 490,
             "id": 610,
             "name": "car",
             "timestamp": "2020-02-10T08:36:56.941Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 494,
             "id": 639,
             "name": "car",
             "timestamp": "2020-02-10T08:36:57.199Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 502,
             "id": 624,
             "name": "car",
             "timestamp": "2020-02-10T08:36:57.722Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 537,
             "id": 626,
             "name": "car",
             "timestamp": "2020-02-10T08:37:00.001Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 540,
             "id": 650,
             "name": "car",
             "timestamp": "2020-02-10T08:37:00.192Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 559,
             "id": 610,
             "name": "car",
             "timestamp": "2020-02-10T08:37:01.428Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 595,
             "id": 668,
             "name": "car",
             "timestamp": "2020-02-10T08:37:03.789Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 608,
             "id": 626,
             "name": "car",
             "timestamp": "2020-02-10T08:37:04.633Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 641,
             "id": 681,
             "name": "car",
             "timestamp": "2020-02-10T08:37:06.768Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 645,
             "id": 685,
             "name": "car",
             "timestamp": "2020-02-10T08:37:07.048Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 698,
             "id": 681,
             "name": "car",
             "timestamp": "2020-02-10T08:37:10.527Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 699,
             "id": 700,
             "name": "car",
             "timestamp": "2020-02-10T08:37:10.591Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 701,
             "id": 675,
             "name": "car",
             "timestamp": "2020-02-10T08:37:10.723Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 741,
             "id": 709,
             "name": "car",
             "timestamp": "2020-02-10T08:37:13.311Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 752,
             "id": 701,
             "name": "car",
             "timestamp": "2020-02-10T08:37:14.034Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 764,
             "id": 675,
             "name": "car",
             "timestamp": "2020-02-10T08:37:14.824Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 813,
             "id": 713,
             "name": "car",
             "timestamp": "2020-02-10T08:37:18.031Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 814,
             "id": 701,
             "name": "car",
             "timestamp": "2020-02-10T08:37:18.097Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 818,
             "id": 727,
             "name": "car",
             "timestamp": "2020-02-10T08:37:18.360Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 910,
             "id": 761,
             "name": "car",
             "timestamp": "2020-02-10T08:37:24.335Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 944,
             "id": 738,
             "name": "car",
             "timestamp": "2020-02-10T08:37:26.551Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 949,
             "id": 765,
             "name": "car",
             "timestamp": "2020-02-10T08:37:26.875Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 996,
             "id": 764,
             "name": "car",
             "timestamp": "2020-02-10T08:37:29.940Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1019,
             "id": 791,
             "name": "car",
             "timestamp": "2020-02-10T08:37:31.438Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1047,
             "id": 777,
             "name": "car",
             "timestamp": "2020-02-10T08:37:33.256Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1055,
             "id": 764,
             "name": "car",
             "timestamp": "2020-02-10T08:37:33.783Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 1072,
             "id": 812,
             "name": "person",
             "timestamp": "2020-02-10T08:37:34.904Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1091,
             "id": 810,
             "name": "car",
             "timestamp": "2020-02-10T08:37:36.149Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1094,
             "id": 817,
             "name": "car",
             "timestamp": "2020-02-10T08:37:36.338Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1110,
             "id": 777,
             "name": "car",
             "timestamp": "2020-02-10T08:37:37.369Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1142,
             "id": 827,
             "name": "car",
             "timestamp": "2020-02-10T08:37:39.465Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1145,
             "id": 828,
             "name": "car",
             "timestamp": "2020-02-10T08:37:39.644Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1149,
             "id": 810,
             "name": "car",
             "timestamp": "2020-02-10T08:37:39.908Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1186,
             "id": 839,
             "name": "car",
             "timestamp": "2020-02-10T08:37:42.354Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1194,
             "id": 848,
             "name": "car",
             "timestamp": "2020-02-10T08:37:42.880Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1196,
             "id": 827,
             "name": "car",
             "timestamp": "2020-02-10T08:37:43.010Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1243,
             "id": 839,
             "name": "car",
             "timestamp": "2020-02-10T08:37:46.063Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1271,
             "id": 875,
             "name": "truck",
             "timestamp": "2020-02-10T08:37:47.882Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1296,
             "id": 879,
             "name": "car",
             "timestamp": "2020-02-10T08:37:49.530Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1303,
             "id": 885,
             "name": "car",
             "timestamp": "2020-02-10T08:37:50.012Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1349,
             "id": 885,
             "name": "car",
             "timestamp": "2020-02-10T08:37:53.034Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 1362,
             "id": 795,
             "name": "car",
             "timestamp": "2020-02-10T08:37:53.899Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1405,
             "id": 795,
             "name": "car",
             "timestamp": "2020-02-10T08:37:56.671Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1411,
             "id": 915,
             "name": "car",
             "timestamp": "2020-02-10T08:37:57.054Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1421,
             "id": 915,
             "name": "car",
             "timestamp": "2020-02-10T08:37:57.707Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1506,
             "id": 919,
             "name": "car",
             "timestamp": "2020-02-10T08:38:03.282Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 1510,
             "id": 915,
             "name": "car",
             "timestamp": "2020-02-10T08:38:03.541Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 1511,
             "id": 934,
             "name": "car",
             "timestamp": "2020-02-10T08:38:03.613Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 1564,
             "id": 919,
             "name": "car",
             "timestamp": "2020-02-10T08:38:07.078Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1571,
             "id": 927,
             "name": "car",
             "timestamp": "2020-02-10T08:38:07.533Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 1603,
             "id": 931,
             "name": "car",
             "timestamp": "2020-02-10T08:38:09.602Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 1623,
             "id": 927,
             "name": "car",
             "timestamp": "2020-02-10T08:38:10.922Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 1640,
             "id": 951,
             "name": "car",
             "timestamp": "2020-02-10T08:38:12.042Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 1681,
             "id": 961,
             "name": "car",
             "timestamp": "2020-02-10T08:38:14.710Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1698,
             "id": 943,
             "name": "car",
             "timestamp": "2020-02-10T08:38:15.832Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 1708,
             "id": 795,
             "name": "car",
             "timestamp": "2020-02-10T08:38:16.477Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 1722,
             "id": 936,
             "name": "car",
             "timestamp": "2020-02-10T08:38:17.377Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1743,
             "id": 964,
             "name": "car",
             "timestamp": "2020-02-10T08:38:18.750Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 1760,
             "id": 943,
             "name": "car",
             "timestamp": "2020-02-10T08:38:19.879Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1794,
             "id": 959,
             "name": "car",
             "timestamp": "2020-02-10T08:38:22.109Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 1806,
             "id": 964,
             "name": "car",
             "timestamp": "2020-02-10T08:38:22.874Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 1822,
             "id": 952,
             "name": "car",
             "timestamp": "2020-02-10T08:38:23.920Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 1853,
             "id": 959,
             "name": "car",
             "timestamp": "2020-02-10T08:38:25.959Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 1867,
             "id": 974,
             "name": "car",
             "timestamp": "2020-02-10T08:38:26.871Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 1879,
             "id": 965,
             "name": "car",
             "timestamp": "2020-02-10T08:38:27.646Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 1909,
             "id": 983,
             "name": "car",
             "timestamp": "2020-02-10T08:38:29.606Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 1967,
             "id": 965,
             "name": "bus",
             "timestamp": "2020-02-10T08:38:33.380Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2011,
             "id": 997,
             "name": "car",
             "timestamp": "2020-02-10T08:38:36.239Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2019,
             "id": 1001,
             "name": "car",
             "timestamp": "2020-02-10T08:38:36.779Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2025,
             "id": 1006,
             "name": "car",
             "timestamp": "2020-02-10T08:38:37.172Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2057,
             "id": 1002,
             "name": "truck",
             "timestamp": "2020-02-10T08:38:39.280Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2068,
             "id": 1001,
             "name": "car",
             "timestamp": "2020-02-10T08:38:39.991Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2072,
             "id": 997,
             "name": "car",
             "timestamp": "2020-02-10T08:38:40.255Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2082,
             "id": 1000,
             "name": "car",
             "timestamp": "2020-02-10T08:38:40.908Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2099,
             "id": 1006,
             "name": "car",
             "timestamp": "2020-02-10T08:38:42.038Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2105,
             "id": 1006,
             "name": "car",
             "timestamp": "2020-02-10T08:38:42.441Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2110,
             "id": 1014,
             "name": "car",
             "timestamp": "2020-02-10T08:38:42.770Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2137,
             "id": 1018,
             "name": "car",
             "timestamp": "2020-02-10T08:38:44.524Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2142,
             "id": 1016,
             "name": "car",
             "timestamp": "2020-02-10T08:38:44.849Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2149,
             "id": 1000,
             "name": "car",
             "timestamp": "2020-02-10T08:38:45.306Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2155,
             "id": 1014,
             "name": "car",
             "timestamp": "2020-02-10T08:38:45.708Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2156,
             "id": 1000,
             "name": "car",
             "timestamp": "2020-02-10T08:38:45.770Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2171,
             "id": 998,
             "name": "car",
             "timestamp": "2020-02-10T08:38:46.766Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 2172,
             "id": 904,
             "name": "car",
             "timestamp": "2020-02-10T08:38:46.830Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2188,
             "id": 1016,
             "name": "car",
             "timestamp": "2020-02-10T08:38:47.872Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2189,
             "id": 1027,
             "name": "car",
             "timestamp": "2020-02-10T08:38:47.949Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2228,
             "id": 998,
             "name": "car",
             "timestamp": "2020-02-10T08:38:50.492Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2250,
             "id": 1027,
             "name": "bus",
             "timestamp": "2020-02-10T08:38:51.949Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2252,
             "id": 1036,
             "name": "car",
             "timestamp": "2020-02-10T08:38:52.070Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2253,
             "id": 1020,
             "name": "car",
             "timestamp": "2020-02-10T08:38:52.145Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2287,
             "id": 1054,
             "name": "car",
             "timestamp": "2020-02-10T08:38:54.328Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2291,
             "id": 1055,
             "name": "car",
             "timestamp": "2020-02-10T08:38:54.592Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2296,
             "id": 1069,
             "name": "car",
             "timestamp": "2020-02-10T08:38:54.922Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2298,
             "id": 1055,
             "name": "car",
             "timestamp": "2020-02-10T08:38:55.057Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2302,
             "id": 1020,
             "name": "car",
             "timestamp": "2020-02-10T08:38:55.322Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2317,
             "id": 1075,
             "name": "car",
             "timestamp": "2020-02-10T08:38:56.284Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2324,
             "id": 1021,
             "name": "car",
             "timestamp": "2020-02-10T08:38:56.743Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2336,
             "id": 1069,
             "name": "car",
             "timestamp": "2020-02-10T08:38:57.511Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2344,
             "id": 1081,
             "name": "car",
             "timestamp": "2020-02-10T08:38:58.032Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2354,
             "id": 1054,
             "name": "car",
             "timestamp": "2020-02-10T08:38:58.684Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2383,
             "id": 1081,
             "name": "car",
             "timestamp": "2020-02-10T08:39:00.565Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2386,
             "id": 1021,
             "name": "car",
             "timestamp": "2020-02-10T08:39:00.768Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2390,
             "id": 1021,
             "name": "car",
             "timestamp": "2020-02-10T08:39:01.016Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2399,
             "id": 1068,
             "name": "car",
             "timestamp": "2020-02-10T08:39:01.600Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2401,
             "id": 1092,
             "name": "car",
             "timestamp": "2020-02-10T08:39:01.734Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2435,
             "id": 1094,
             "name": "car",
             "timestamp": "2020-02-10T08:39:03.941Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2436,
             "id": 1100,
             "name": "car",
             "timestamp": "2020-02-10T08:39:04.015Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2450,
             "id": 1103,
             "name": "truck",
             "timestamp": "2020-02-10T08:39:04.904Z"
         },
         {
-            "area": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "area_name": "red",
             "frameId": 2463,
             "id": 1049,
             "name": "car",
             "timestamp": "2020-02-10T08:39:05.758Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2464,
             "id": 1068,
             "name": "car",
             "timestamp": "2020-02-10T08:39:05.810Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2471,
             "id": 1068,
             "name": "car",
             "timestamp": "2020-02-10T08:39:06.258Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2483,
             "id": 1067,
             "name": "car",
             "timestamp": "2020-02-10T08:39:07.045Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2492,
             "id": 1094,
             "name": "car",
             "timestamp": "2020-02-10T08:39:07.642Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2518,
             "id": 1113,
             "name": "car",
             "timestamp": "2020-02-10T08:39:09.332Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2521,
             "id": 1120,
             "name": "car",
             "timestamp": "2020-02-10T08:39:09.527Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2524,
             "id": 1127,
             "name": "car",
             "timestamp": "2020-02-10T08:39:09.712Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2544,
             "id": 1001,
             "name": "car",
             "timestamp": "2020-02-10T08:39:11.007Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2559,
             "id": 1067,
             "name": "car",
             "timestamp": "2020-02-10T08:39:12.005Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2576,
             "id": 1113,
             "name": "car",
             "timestamp": "2020-02-10T08:39:13.101Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2578,
             "id": 1147,
             "name": "car",
             "timestamp": "2020-02-10T08:39:13.233Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2582,
             "id": 1111,
             "name": "car",
             "timestamp": "2020-02-10T08:39:13.503Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2592,
             "id": 1135,
             "name": "car",
             "timestamp": "2020-02-10T08:39:14.142Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2595,
             "id": 1112,
             "name": "car",
             "timestamp": "2020-02-10T08:39:14.344Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2636,
             "id": 1161,
             "name": "car",
             "timestamp": "2020-02-10T08:39:16.999Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2639,
             "id": 1136,
             "name": "car",
             "timestamp": "2020-02-10T08:39:17.190Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2647,
             "id": 1111,
             "name": "car",
             "timestamp": "2020-02-10T08:39:17.714Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2650,
             "id": 1168,
             "name": "car",
             "timestamp": "2020-02-10T08:39:17.900Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2662,
             "id": 1165,
             "name": "car",
             "timestamp": "2020-02-10T08:39:18.687Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2663,
             "id": 1112,
             "name": "car",
             "timestamp": "2020-02-10T08:39:18.751Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2670,
             "id": 1112,
             "name": "car",
             "timestamp": "2020-02-10T08:39:19.197Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2682,
             "id": 1176,
             "name": "car",
             "timestamp": "2020-02-10T08:39:19.979Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2690,
             "id": 1163,
             "name": "car",
             "timestamp": "2020-02-10T08:39:20.500Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2692,
             "id": 1179,
             "name": "car",
             "timestamp": "2020-02-10T08:39:20.633Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2697,
             "id": 1184,
             "name": "car",
             "timestamp": "2020-02-10T08:39:20.952Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2710,
             "id": 1186,
             "name": "car",
             "timestamp": "2020-02-10T08:39:21.804Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2711,
             "id": 1136,
             "name": "car",
             "timestamp": "2020-02-10T08:39:21.868Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2731,
             "id": 1184,
             "name": "car",
             "timestamp": "2020-02-10T08:39:23.200Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2732,
             "id": 1182,
             "name": "car",
             "timestamp": "2020-02-10T08:39:23.261Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2745,
             "id": 1144,
             "name": "car",
             "timestamp": "2020-02-10T08:39:24.105Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2755,
             "id": 1192,
             "name": "car",
             "timestamp": "2020-02-10T08:39:24.771Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2760,
             "id": 1163,
             "name": "car",
             "timestamp": "2020-02-10T08:39:25.092Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2764,
             "id": 1186,
             "name": "car",
             "timestamp": "2020-02-10T08:39:25.354Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2791,
             "id": 1188,
             "name": "car",
             "timestamp": "2020-02-10T08:39:27.107Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2792,
             "id": 1200,
             "name": "car",
             "timestamp": "2020-02-10T08:39:27.170Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2813,
             "id": 1182,
             "name": "car",
             "timestamp": "2020-02-10T08:39:28.520Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2816,
             "id": 1144,
             "name": "car",
             "timestamp": "2020-02-10T08:39:28.709Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2820,
             "id": 1206,
             "name": "car",
             "timestamp": "2020-02-10T08:39:28.986Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2845,
             "id": 1178,
             "name": "car",
             "timestamp": "2020-02-10T08:39:30.585Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2858,
             "id": 1188,
             "name": "car",
             "timestamp": "2020-02-10T08:39:31.367Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2862,
             "id": 1231,
             "name": "car",
             "timestamp": "2020-02-10T08:39:31.599Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2867,
             "id": 1188,
             "name": "car",
             "timestamp": "2020-02-10T08:39:31.896Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2869,
             "id": 1230,
             "name": "car",
             "timestamp": "2020-02-10T08:39:32.007Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2884,
             "id": 1243,
             "name": "car",
             "timestamp": "2020-02-10T08:39:32.939Z"
         },
         {
-            "area": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_id": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "area_name": "green",
             "frameId": 2904,
             "id": 1235,
             "name": "car",
             "timestamp": "2020-02-10T08:39:34.207Z"
         },
         {
-            "area": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "area_name": "blue",
             "frameId": 2906,
             "id": 1230,
             "name": "car",
             "timestamp": "2020-02-10T08:39:34.333Z"
         },
         {
-            "area": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_id": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "area_name": "pink",
             "frameId": 2912,
             "id": 1178,
             "name": "car",
             "timestamp": "2020-02-10T08:39:34.715Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2923,
             "id": 1178,
             "name": "car",
             "timestamp": "2020-02-10T08:39:35.414Z"
         },
         {
-            "area": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "area_name": "yellow",
             "frameId": 2932,
             "id": 1258,
             "name": "car",
             "timestamp": "2020-02-10T08:39:35.986Z"
         }
     ],
-    "counterSummary": {
-        "1c871c40-e5dd-4689-a795-39718be34f01": {
+    "counterSummary": [
+        {
             "_total": 29,
+            "areaId": "1c871c40-e5dd-4689-a795-39718be34f01",
+            "areaName": "pink",
             "car": 29
         },
-        "549f849a-f585-43c7-a93a-b92cd1c7f3eb": {
+        {
             "_total": 41,
+            "areaId": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
+            "areaName": "red",
             "bus": 1,
             "car": 39,
             "truck": 1
         },
-        "79fdd185-f875-424a-a418-85519bd3a9d7": {
+        {
             "_total": 24,
+            "areaId": "79fdd185-f875-424a-a418-85519bd3a9d7",
+            "areaName": "green",
             "car": 23,
             "person": 1
         },
-        "c2d784fb-374c-4857-b2c2-daa7ebaa928c": {
+        {
             "_total": 42,
+            "areaId": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
+            "areaName": "yellow",
             "bus": 1,
             "car": 40,
             "truck": 1
         },
-        "de2432bf-73aa-4fc7-b24f-8168d5e43c9e": {
+        {
             "_total": 43,
+            "areaId": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
+            "areaName": "blue",
             "bus": 1,
             "car": 41,
             "truck": 1
         }
-    },
+    ],
     "dateEnd": "2020-02-10T08:39:36.178Z",
     "dateStart": "2020-02-10T08:36:25.208Z",
     "filename": "s1out.mp4",
