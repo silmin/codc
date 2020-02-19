@@ -10,6 +10,7 @@ import (
     "github.com/urfave/cli"
 
     types "github.com/silmin/odc-combiner/typefile"
+    "github.com/silmin/odc-combiner/combine"
 )
 
 func isExistFile(filename string) bool {
@@ -31,6 +32,22 @@ func file2Figure(filename string) (types.Figure, error) {
     }
 
     return figure, nil
+}
+
+func isExistAreas(figure types.Figure, names []string) bool {
+    for _, name := range names {
+        flg := false
+        for _, area := range figure.Areas {
+            if name == area.Name {
+                flg = true
+                break
+            }
+        }
+        if !flg {
+            return false
+        }
+    }
+    return true
 }
 
 func main() {
@@ -59,10 +76,20 @@ func main() {
                         fmt.Println(filename, "not exist.")
                         return nil
                     }
+                    args := context.Args().Slice()
                     fmt.Println("filename:", filename)
-                    fmt.Println("args:", context.Args())
+                    fmt.Println("args:", args)
 
-                    file2Figure(filename)
+                    figure, err := file2Figure(filename)
+                    if err != nil {
+                        log.Fatal(err)
+                        return err
+                    }
+
+                    if !isExistAreas(figure, args) {
+                        fmt.Println(args, "not exist.")
+                        return nil
+                    }
 
                     //CombineAreas(filename, context.Args().Slice())
 
