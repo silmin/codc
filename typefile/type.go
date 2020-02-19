@@ -42,11 +42,12 @@ type Location struct {
     RefResolution RefResolution `json:"refResolution"`
 }
 type Areas struct {
+    ID       string   `json:"id"`
     Color    string   `json:"color"`
     Computed Computed `json:"computed"`
-    ID       string   `json:"id"`
     Location Location `json:"location"`
     Name     string   `json:"name"`
+    Source   []string `json:"source",omitempty"`
 }
 type CounterHistory struct {
     AreaID    string    `json:"area_id"`

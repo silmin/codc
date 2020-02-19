@@ -2,6 +2,7 @@
     "_id": "5e41160905670f003ab390bc",
     "areas": [
         {
+            "id": "1c871c40-e5dd-4689-a795-39718be34f01",
             "color": "purple",
             "computed": {
                 "a": -0.4179233313534197,
@@ -11,7 +12,6 @@
                     "xMin": 168.04774083546462
                 }
             },
-            "id": "1c871c40-e5dd-4689-a795-39718be34f01",
             "location": {
                 "point1": {
                     "x": 308,
@@ -26,9 +26,11 @@
                     "w": 1173
                 }
             },
-            "name": "pink"
+            "name": "pink",
+            "source": null
         },
         {
+            "id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
             "color": "red",
             "computed": {
                 "a": 2.1341105689826008,
@@ -38,7 +40,6 @@
                     "xMin": 573.9812446717817
                 }
             },
-            "id": "549f849a-f585-43c7-a93a-b92cd1c7f3eb",
             "location": {
                 "point1": {
                     "x": 1128,
@@ -53,9 +54,11 @@
                     "w": 1173
                 }
             },
-            "name": "red"
+            "name": "red",
+            "source": null
         },
         {
+            "id": "79fdd185-f875-424a-a418-85519bd3a9d7",
             "color": "green",
             "computed": {
                 "a": -0.12226053496712504,
@@ -65,7 +68,6 @@
                     "xMin": 417.39130434782606
                 }
             },
-            "id": "79fdd185-f875-424a-a418-85519bd3a9d7",
             "location": {
                 "point1": {
                     "x": 765,
@@ -80,9 +82,11 @@
                     "w": 1173
                 }
             },
-            "name": "green"
+            "name": "green",
+            "source": null
         },
         {
+            "id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
             "color": "yellow",
             "computed": {
                 "a": -1.1779771408122819,
@@ -92,7 +96,6 @@
                     "xMin": 63.29070758738278
                 }
             },
-            "id": "c2d784fb-374c-4857-b2c2-daa7ebaa928c",
             "location": {
                 "point1": {
                     "x": 116,
@@ -107,9 +110,11 @@
                     "w": 1173
                 }
             },
-            "name": "yellow"
+            "name": "yellow",
+            "source": null
         },
         {
+            "id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
             "color": "turquoise",
             "computed": {
                 "a": 0.5930439330543933,
@@ -119,7 +124,6 @@
                     "xMin": 236.24893435635124
                 }
             },
-            "id": "de2432bf-73aa-4fc7-b24f-8168d5e43c9e",
             "location": {
                 "point1": {
                     "x": 568,
@@ -134,9 +138,11 @@
                     "w": 1173
                 }
             },
-            "name": "blue"
+            "name": "blue",
+            "source": null
         },
         {
+            "id": "",
             "color": "",
             "computed": {
                 "a": 0,
@@ -146,7 +152,6 @@
                     "xMin": 0
                 }
             },
-            "id": "",
             "location": {
                 "point1": {
                     "x": 0,
@@ -161,7 +166,11 @@
                     "w": 0
                 }
             },
-            "name": "yellow-blue"
+            "name": "yellow-blue",
+            "source": [
+                "yellow",
+                "blue"
+            ]
         }
     ],
     "counterHistory": [
