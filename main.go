@@ -21,13 +21,11 @@ func isExistFile(filename string) bool {
 func file2Figure(filename string) (types.Figure, error) {
     bytes, err := ioutil.ReadFile(filename)
     if err != nil {
-        log.Fatal(err)
         return types.Figure{}, err
     }
 
     var figure types.Figure
     if err := json.Unmarshal(bytes, &figure); err != nil {
-        log.Fatal(err)
         return types.Figure{}, err
     }
 
@@ -93,7 +91,7 @@ func main() {
                     }
 
                     if !isExistAreas(figure, args) {
-                        fmt.Println(args, "not exist.")
+                        fmt.Println(args, "contains something that doesn't exist in", args)
                         return nil
                     }
 
