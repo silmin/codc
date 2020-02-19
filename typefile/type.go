@@ -60,7 +60,7 @@ type CounterSummary struct {
     Total    int    `json:"_total"`
     AreaID   string `json:"areaId"`
     AreaName string `json:"areaName"`
-    Car      int    `json:"car"`
+    Car      int    `json:"car,omitempty"`
     Bus      int    `json:"bus,omitempty"`
     Truck    int    `json:"truck,omitempty"`
     Person   int    `json:"person,omitempty"`
