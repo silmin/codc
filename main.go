@@ -4,13 +4,33 @@ import (
     "os"
     "fmt"
     "log"
+    "encoding/json"
+    "io/ioutil"
 
     "github.com/urfave/cli"
+
+    types "github.com/silmin/odc-combiner/typefile"
 )
 
 func isExistFile(filename string) bool {
     _, err := os.Stat(filename)
     return err == nil
+}
+
+func file2Figure(filename string) (types.Figure, error) {
+    bytes, err := ioutil.ReadFile(filename)
+    if err != nil {
+        log.Fatal(err)
+        return types.Figure{}, err
+    }
+
+    var figure types.Figure
+    if err := json.Unmarshal(bytes, &figure); err != nil {
+        log.Fatal(err)
+        return types.Figure{}, err
+    }
+
+    return figure, nil
 }
 
 func main() {
@@ -40,6 +60,12 @@ func main() {
                         return nil
                     }
                     fmt.Println("filename:", filename)
+                    fmt.Println("args:", context.Args())
+
+                    file2Figure(filename)
+
+                    //CombineAreas(filename, context.Args().Slice())
+
                     return nil
                 },
             },
