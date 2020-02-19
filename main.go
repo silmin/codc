@@ -77,7 +77,7 @@ func main() {
                     },
                 },
                 Action: func (context *cli.Context) error {
-                    filename := context.String("file")
+                    filename := context.String("src")
                     if !isExistFile(filename) {
                         fmt.Println(filename, "not exist.")
                         return nil
