@@ -64,10 +64,16 @@ func main() {
 
                 Flags: []cli.Flag {
                     &cli.StringFlag {
-                        Name: "file",
-                        Aliases: []string{"f"},
+                        Name: "src",
+                        Aliases: []string{"s"},
                         Usage: "input json file",
                         Value: "input.json",
+                    },
+                    &cli.StringFlag {
+                        Name: "dst",
+                        Aliases: []string{"d"},
+                        Usage: "output json file",
+                        Value: "output.json",
                     },
                 },
                 Action: func (context *cli.Context) error {
