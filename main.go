@@ -32,6 +32,15 @@ func file2Figure(filename string) (types.Figure, error) {
     return figure, nil
 }
 
+func figure2file(filename string, figure types.Figure) error {
+    bytes, err := json.MarshalIndent(figure, "", "    ")
+    if err != nil {
+        return err
+    }
+
+    return ioutil.WriteFile(filename, bytes, 0664)
+}
+
 func isExistAreas(figure types.Figure, names []string) bool {
     for _, name := range names {
         flg := false
@@ -95,7 +104,16 @@ func main() {
                         return nil
                     }
 
-                    //CombineAreas(filename, context.Args().Slice())
+                    figure, err = combine.Area(figure, args)
+                    if err != nil {
+                        log.Fatal(err)
+                        return err
+                    }
+
+                    if err := figure2file(context.String("dst"), figure); err != nil {
+                        log.Fatal(err)
+                        return err
+                    }
 
                     return nil
                 },
