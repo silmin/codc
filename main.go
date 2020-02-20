@@ -84,23 +84,24 @@ func main() {
                     },
                 },
                 Action: func (context *cli.Context) error {
-                    filename := context.String("src")
-                    if !isExistFile(filename) {
-                        fmt.Println(filename, "not exist.")
+                    inFile := context.String("src")
+                    outFile := context.String("dst")
+                    if !isExistFile(inFile) {
+                        fmt.Println(inFile, "not exist.")
                         return nil
                     }
                     args := context.Args().Slice()
-                    fmt.Println("filename:", filename)
+                    fmt.Println("input:", inFile)
                     fmt.Println("args:", args)
 
-                    figure, err := file2Figure(filename)
+                    figure, err := file2Figure(inFile)
                     if err != nil {
                         log.Fatal(err)
                         return err
                     }
 
                     if !isExistAreas(figure, args) {
-                        fmt.Println(args, "contains something that doesn't exist in", args)
+                        fmt.Println("contains something that doesn't exist in", args)
                         return nil
                     }
 
@@ -110,10 +111,11 @@ func main() {
                         return err
                     }
 
-                    if err := figure2file(context.String("dst"), figure); err != nil {
+                    if err := figure2file(outFile, figure); err != nil {
                         log.Fatal(err)
                         return err
                     }
+                    fmt.Println("output:", outFile)
 
                     return nil
                 },
