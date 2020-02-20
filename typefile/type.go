@@ -47,7 +47,7 @@ type Areas struct {
     Computed Computed `json:"computed"`
     Location Location `json:"location"`
     Name     string   `json:"name"`
-    Source   []string `json:"source",omitempty"`
+    Source   []string `json:"source"`
 }
 type CounterHistory struct {
     AreaID    string    `json:"area_id"`
