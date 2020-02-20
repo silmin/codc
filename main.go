@@ -62,7 +62,7 @@ func main() {
 
         Name: "ODC-combiner",
         Usage: "combine json of opendatacam",
-        Version: "0.0.1",
+        Version: "0.1.0",
 
         Commands: []*cli.Command {
             {
