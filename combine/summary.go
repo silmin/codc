@@ -4,7 +4,7 @@ import (
     "strings"
     "errors"
 
-    types "github.com/silmin/odc-combiner/typefile"
+    types "github.com/silmin/codc/typefile"
 )
 
 func getSummary(summaries []types.CounterSummary, name string) (types.CounterSummary, error) {
