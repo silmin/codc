@@ -3,7 +3,7 @@ package combine
 import (
     "strings"
 
-    types "github.com/silmin/odc-combiner/typefile"
+    types "github.com/silmin/codc/typefile"
 )
 
 func Area(figure types.Figure, names []string) (types.Figure, error) {

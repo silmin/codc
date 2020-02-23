@@ -9,8 +9,8 @@ import (
 
     "github.com/urfave/cli"
 
-    types "github.com/silmin/odc-combiner/typefile"
-    "github.com/silmin/odc-combiner/combine"
+    types "github.com/silmin/codc/typefile"
+    "github.com/silmin/codc/combine"
 )
 
 func isExistFile(filename string) bool {
@@ -60,7 +60,7 @@ func isExistAreas(figure types.Figure, names []string) bool {
 func main() {
     app := &cli.App {
 
-        Name: "ODC-combiner",
+        Name: "codc | Combine OpenDataCam's data",
         Usage: "combine json of opendatacam",
         Version: "0.1.0",
 
