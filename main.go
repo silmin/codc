@@ -66,6 +66,38 @@ func main() {
 
 		Commands: []*cli.Command{
 			{
+				Name:  "form",
+				Usage: "form default json to original formmat",
+
+				Flags: []cli.Flag{
+					&cli.StringFlag{
+						Name:    "src",
+						Aliases: []string{"s"},
+						Usage:   "input json file",
+						Value:   "input.json",
+					},
+					&cli.StringFlag{
+						Name:    "dst",
+						Aliases: []string{"d"},
+						Usage:   "output json file",
+						Value:   "formd.json",
+					},
+				},
+				Action: func(context *cli.Context) error {
+					inFile := context.String("src")
+					outFile := context.String("dst")
+					if !isExistFile(inFile) {
+						fmt.Println(inFile, "not exist.")
+						return nil
+					}
+					fmt.Println("input:", inFile)
+
+					fmt.Println("output:", outFile)
+
+					return nil
+				},
+			},
+			{
 				Name:  "areas",
 				Usage: "combine any areas",
 
@@ -112,38 +144,6 @@ func main() {
 					if err := figure2file(outFile, figure); err != nil {
 						return err
 					}
-					fmt.Println("output:", outFile)
-
-					return nil
-				},
-			},
-			{
-				Name:  "form",
-				Usage: "form default json to original formmat",
-
-				Flags: []cli.Flag{
-					&cli.StringFlag{
-						Name:    "src",
-						Aliases: []string{"s"},
-						Usage:   "input json file",
-						Value:   "input.json",
-					},
-					&cli.StringFlag{
-						Name:    "dst",
-						Aliases: []string{"d"},
-						Usage:   "output json file",
-						Value:   "formd.json",
-					},
-				},
-				Action: func(context *cli.Context) error {
-					inFile := context.String("src")
-					outFile := context.String("dst")
-					if !isExistFile(inFile) {
-						fmt.Println(inFile, "not exist.")
-						return nil
-					}
-					fmt.Println("input:", inFile)
-
 					fmt.Println("output:", outFile)
 
 					return nil
