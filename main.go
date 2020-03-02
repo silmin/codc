@@ -62,7 +62,7 @@ func main() {
 
 		Name:    "codc | Combine OpenDataCam's data",
 		Usage:   "combine json of opendatacam",
-		Version: "0.2.0",
+		Version: "0.3.0",
 
 		Commands: []*cli.Command{
 			{
@@ -96,7 +96,6 @@ func main() {
 
 					figure, err := file2Figure(inFile)
 					if err != nil {
-						log.Fatal(err)
 						return err
 					}
 
@@ -107,12 +106,10 @@ func main() {
 
 					figure, err = combine.Area(figure, args)
 					if err != nil {
-						log.Fatal(err)
 						return err
 					}
 
 					if err := figure2file(outFile, figure); err != nil {
-						log.Fatal(err)
 						return err
 					}
 					fmt.Println("output:", outFile)
