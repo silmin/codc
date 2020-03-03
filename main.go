@@ -9,29 +9,8 @@ import (
 
 	"github.com/silmin/codc/combine"
 	"github.com/silmin/codc/convert"
-	types "github.com/silmin/codc/typefile"
+	"github.com/silmin/codc/exists"
 )
-
-func isExistFile(filename string) bool {
-	_, err := os.Stat(filename)
-	return err == nil
-}
-
-func isExistAreas(figure types.Figure, names []string) bool {
-	for _, name := range names {
-		flg := false
-		for _, area := range figure.Areas {
-			if name == area.Name {
-				flg = true
-				break
-			}
-		}
-		if !flg {
-			return false
-		}
-	}
-	return true
-}
 
 func main() {
 	app := &cli.App{
@@ -62,7 +41,7 @@ func main() {
 				Action: func(context *cli.Context) error {
 					inFile := context.String("src")
 					outFile := context.String("dst")
-					if !isExistFile(inFile) {
+					if !exists.File(inFile) {
 						fmt.Println(inFile, "not exist.")
 						return nil
 					}
@@ -94,7 +73,7 @@ func main() {
 				Action: func(context *cli.Context) error {
 					inFile := context.String("src")
 					outFile := context.String("dst")
-					if !isExistFile(inFile) {
+					if !exists.File(inFile) {
 						fmt.Println(inFile, "not exist.")
 						return nil
 					}
@@ -107,7 +86,7 @@ func main() {
 						return err
 					}
 
-					if !isExistAreas(figure, args) {
+					if !exists.Area(figure, args) {
 						fmt.Println("contains something that doesn't exist in", args)
 						return nil
 					}
