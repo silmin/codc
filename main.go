@@ -1,44 +1,20 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"os"
 
 	"github.com/urfave/cli"
 
 	"github.com/silmin/codc/combine"
+	"github.com/silmin/codc/convert"
 	types "github.com/silmin/codc/typefile"
 )
 
 func isExistFile(filename string) bool {
 	_, err := os.Stat(filename)
 	return err == nil
-}
-
-func file2Figure(filename string) (types.Figure, error) {
-	bytes, err := ioutil.ReadFile(filename)
-	if err != nil {
-		return types.Figure{}, err
-	}
-
-	var figure types.Figure
-	if err := json.Unmarshal(bytes, &figure); err != nil {
-		return types.Figure{}, err
-	}
-
-	return figure, nil
-}
-
-func figure2file(filename string, figure types.Figure) error {
-	bytes, err := json.MarshalIndent(figure, "", "    ")
-	if err != nil {
-		return err
-	}
-
-	return ioutil.WriteFile(filename, bytes, 0664)
 }
 
 func isExistAreas(figure types.Figure, names []string) bool {
@@ -126,7 +102,7 @@ func main() {
 					fmt.Println("input:", inFile)
 					fmt.Println("args:", args)
 
-					figure, err := file2Figure(inFile)
+					figure, err := convert.File2Figure(inFile)
 					if err != nil {
 						return err
 					}
@@ -141,7 +117,7 @@ func main() {
 						return err
 					}
 
-					if err := figure2file(outFile, figure); err != nil {
+					if err := convert.Figure2File(outFile, figure); err != nil {
 						return err
 					}
 					fmt.Println("output:", outFile)
