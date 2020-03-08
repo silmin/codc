@@ -20,12 +20,3 @@ func File2Figure(filename string) (types.Figure, error) {
 
 	return figure, nil
 }
-
-func Figure2File(filename string, figure types.Figure) error {
-	bytes, err := json.MarshalIndent(figure, "", "    ")
-	if err != nil {
-		return err
-	}
-
-	return ioutil.WriteFile(filename, bytes, 0664)
-}
