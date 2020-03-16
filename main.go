@@ -35,7 +35,7 @@ func main() {
 						Name:    "dst",
 						Aliases: []string{"d"},
 						Usage:   "output json file",
-						Value:   "formd.json",
+						Value:   "formd_input.json",
 					},
 				},
 				Action: func(context *cli.Context) error {
@@ -66,7 +66,7 @@ func main() {
 						Name:    "src",
 						Aliases: []string{"s"},
 						Usage:   "input json file",
-						Value:   "formd.json",
+						Value:   "formd_input.json",
 					},
 					&cli.StringFlag{
 						Name:    "dst",
