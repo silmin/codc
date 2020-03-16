@@ -47,6 +47,11 @@ func main() {
 					}
 					fmt.Println("input:", inFile)
 
+					err := convert.FormJson(inFile, outFile)
+					if err != nil {
+						return err
+					}
+
 					fmt.Println("output:", outFile)
 
 					return nil
