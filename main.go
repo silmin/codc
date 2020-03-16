@@ -1,61 +1,16 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"os"
 
 	"github.com/urfave/cli"
 
 	"github.com/silmin/codc/combine"
-	types "github.com/silmin/codc/typefile"
+	"github.com/silmin/codc/convert"
+	"github.com/silmin/codc/exists"
 )
-
-func isExistFile(filename string) bool {
-	_, err := os.Stat(filename)
-	return err == nil
-}
-
-func file2Figure(filename string) (types.Figure, error) {
-	bytes, err := ioutil.ReadFile(filename)
-	if err != nil {
-		return types.Figure{}, err
-	}
-
-	var figure types.Figure
-	if err := json.Unmarshal(bytes, &figure); err != nil {
-		return types.Figure{}, err
-	}
-
-	return figure, nil
-}
-
-func figure2file(filename string, figure types.Figure) error {
-	bytes, err := json.MarshalIndent(figure, "", "    ")
-	if err != nil {
-		return err
-	}
-
-	return ioutil.WriteFile(filename, bytes, 0664)
-}
-
-func isExistAreas(figure types.Figure, names []string) bool {
-	for _, name := range names {
-		flg := false
-		for _, area := range figure.Areas {
-			if name == area.Name {
-				flg = true
-				break
-			}
-		}
-		if !flg {
-			return false
-		}
-	}
-	return true
-}
 
 func main() {
 	app := &cli.App{
@@ -66,8 +21,8 @@ func main() {
 
 		Commands: []*cli.Command{
 			{
-				Name:  "areas",
-				Usage: "combine any areas",
+				Name:  "form",
+				Usage: "form default json to original formmat",
 
 				Flags: []cli.Flag{
 					&cli.StringFlag{
@@ -80,13 +35,50 @@ func main() {
 						Name:    "dst",
 						Aliases: []string{"d"},
 						Usage:   "output json file",
+						Value:   "formd.json",
+					},
+				},
+				Action: func(context *cli.Context) error {
+					inFile := context.String("src")
+					outFile := context.String("dst")
+					if !exists.File(inFile) {
+						fmt.Println(inFile, "not exist.")
+						return nil
+					}
+					fmt.Println("input:", inFile)
+
+					err := convert.FormJson(inFile, outFile)
+					if err != nil {
+						return err
+					}
+
+					fmt.Println("output:", outFile)
+
+					return nil
+				},
+			},
+			{
+				Name:  "areas",
+				Usage: "combine any areas",
+
+				Flags: []cli.Flag{
+					&cli.StringFlag{
+						Name:    "src",
+						Aliases: []string{"s"},
+						Usage:   "input json file",
+						Value:   "formd.json",
+					},
+					&cli.StringFlag{
+						Name:    "dst",
+						Aliases: []string{"d"},
+						Usage:   "output json file",
 						Value:   "output.json",
 					},
 				},
 				Action: func(context *cli.Context) error {
 					inFile := context.String("src")
 					outFile := context.String("dst")
-					if !isExistFile(inFile) {
+					if !exists.File(inFile) {
 						fmt.Println(inFile, "not exist.")
 						return nil
 					}
@@ -94,12 +86,12 @@ func main() {
 					fmt.Println("input:", inFile)
 					fmt.Println("args:", args)
 
-					figure, err := file2Figure(inFile)
+					figure, err := convert.File2Figure(inFile)
 					if err != nil {
 						return err
 					}
 
-					if !isExistAreas(figure, args) {
+					if !exists.Area(figure, args) {
 						fmt.Println("contains something that doesn't exist in", args)
 						return nil
 					}
@@ -109,7 +101,7 @@ func main() {
 						return err
 					}
 
-					if err := figure2file(outFile, figure); err != nil {
+					if err := convert.Figure2File(outFile, figure); err != nil {
 						return err
 					}
 					fmt.Println("output:", outFile)
