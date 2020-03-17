@@ -43,10 +43,5 @@ func FormJson(inFile string, outFile string) error {
 
 	formd["areas"] = newAreas
 
-	bytes, err := json.MarshalIndent(formd, "", "    ")
-	if err != nil {
-		return err
-	}
-
-	return ioutil.WriteFile(outFile, bytes, 0664)
+	return Interface2File(formd, outFile)
 }
