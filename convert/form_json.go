@@ -1,9 +1,6 @@
 package convert
 
 import (
-	"encoding/json"
-	"io/ioutil"
-
 	"github.com/koron/go-dproxy"
 )
 
@@ -43,5 +40,5 @@ func FormJson(inFile string, outFile string) error {
 
 	formd["areas"] = newAreas
 
-	return Interface2File(formd, outFile)
+	return Interface2File(outFile, formd)
 }
