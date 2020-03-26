@@ -47,7 +47,15 @@ func main() {
 					}
 					fmt.Println("input:", inFile)
 
-					err := convert.FormJson(inFile, outFile)
+					isFormd, err := IsFormd(inFile)
+					if err != nil {
+						return err
+					}
+					if isFormd {
+						return nil
+					}
+
+					err = convert.FormJson(inFile, outFile)
 					if err != nil {
 						return err
 					}
@@ -85,6 +93,19 @@ func main() {
 					args := context.Args().Slice()
 					fmt.Println("input:", inFile)
 					fmt.Println("args:", args)
+
+					isFormd, err := IsFormd(inFile)
+					if err != nil {
+						return err
+					}
+					if !isFormd {
+						formdFile := "formd.json"
+						err := convert.FormJson(inFile, formdFile)
+						if err != nil {
+							return err
+						}
+						inFile = formdFile
+					}
 
 					figure, err := convert.File2Figure(inFile)
 					if err != nil {
