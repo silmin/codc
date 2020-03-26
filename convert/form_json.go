@@ -1,9 +1,6 @@
 package convert
 
 import (
-	"encoding/json"
-	"io/ioutil"
-
 	"github.com/koron/go-dproxy"
 )
 
@@ -16,16 +13,8 @@ func getKeys(m map[string]interface{}) []string {
 }
 
 func FormJson(inFile string, outFile string) error {
-	bytes, err := ioutil.ReadFile(inFile)
-	if err != nil {
-		return err
-	}
 
-	var figure interface{}
-	err = json.Unmarshal([]byte(bytes), &figure)
-	if err != nil {
-		return err
-	}
+	figure, err := File2Interface(inFile)
 
 	areas, err := dproxy.New(figure).M("areas").Map()
 	if err != nil {
@@ -51,10 +40,5 @@ func FormJson(inFile string, outFile string) error {
 
 	formd["areas"] = newAreas
 
-	bytes, err = json.MarshalIndent(formd, "", "    ")
-	if err != nil {
-		return err
-	}
-
-	return ioutil.WriteFile(outFile, bytes, 0664)
+	return Interface2File(outFile, formd)
 }
