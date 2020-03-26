@@ -13,7 +13,7 @@ func getSummary(summaries []types.CounterSummary, name string) (types.CounterSum
 			return summary, nil
 		}
 	}
-	return types.CounterSummary{}, errors.New(name + "does not exist.")
+	return types.CounterSummary{}, errors.New(name + " does not exist.")
 }
 
 func combineSummary(summaries []types.CounterSummary, names []string) (types.CounterSummary, error) {
