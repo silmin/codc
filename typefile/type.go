@@ -50,8 +50,7 @@ type Areas struct {
 	Source   []string `json:"source"`
 }
 type CounterHistory struct {
-	AreaID    string    `json:"area_id"`
-	AreaName  string    `json:"area_name"`
+	Area      string    `json:"area"`
 	FrameID   int       `json:"frameId"`
 	ID        int       `json:"id"`
 	Name      string    `json:"name"`
